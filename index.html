@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GlowTech Lightning Industries - Manufacturers of LED lights in Ranchi, Jharkhand.">
+  <title>GlowTech Lightning Industries | LED Lights Manufacturer</title>
+  <style>
+    :root{--navy:#09264a;--navy2:#123b6d;--white:#fff;--light:#f4f8fc;--text:#17263a;--muted:#607086;--border:#dce6f0}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--white);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);border-bottom:1px solid var(--border)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy)}
+    .logo{width:48px;height:48px;border-radius:12px;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:19px;box-shadow:0 8px 20px rgba(9,38,74,.18)}
+    .brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:1.2px;text-transform:uppercase}
+    nav{display:flex;gap:25px;align-items:center}
+    nav a{font-weight:700;font-size:14px;color:var(--navy)}
+    .nav-cta{background:var(--navy);color:#fff;padding:10px 17px;border-radius:8px}
+    .menu{display:none;background:none;border:0;font-size:28px;color:var(--navy);cursor:pointer}
+    .hero{background:linear-gradient(135deg,#fff 0%,#f4f8fc 55%,#eaf2fa 100%);padding:90px 0 80px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}
+    .tag{display:inline-block;border:1px solid #c8d8e8;color:var(--navy);padding:7px 12px;border-radius:30px;font-size:12px;font-weight:800;letter-spacing:.7px;text-transform:uppercase;background:#fff}
+    h1{font-size:clamp(38px,5vw,64px);line-height:1.08;color:var(--navy);margin:20px 0}
+    .hero p{font-size:18px;color:var(--muted);max-width:650px}
+    .buttons{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:9px;font-weight:800;border:1px solid var(--navy);transition:.2s}
+    .btn-primary{background:var(--navy);color:#fff}
+    .btn-secondary{background:#fff;color:var(--navy)}
+    .btn:hover{transform:translateY(-2px)}
+    .hero-card{background:var(--navy);color:#fff;border-radius:24px;padding:35px;box-shadow:0 25px 60px rgba(9,38,74,.22);position:relative}
+    .hero-card:before{content:"";position:absolute;width:170px;height:170px;border:1px solid rgba(255,255,255,.2);border-radius:50%;right:-55px;top:-55px}
+    .hero-card h2{font-size:30px;margin-bottom:8px}
+    .hero-card p{color:#d9e6f4;font-size:15px}
+    .bulb{height:180px;display:grid;place-items:center;font-size:86px;margin:10px 0}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+    .stat{background:rgba(255,255,255,.09);padding:15px;border-radius:12px;text-align:center}
+    .stat strong{display:block;font-size:23px}.stat span{font-size:11px;color:#d9e6f4}
+    section{padding:80px 0}
+    .section-head{text-align:center;max-width:700px;margin:0 auto 42px}
+    .section-head h2{font-size:38px;color:var(--navy);margin-bottom:8px}
+    .section-head p{color:var(--muted)}
+    .products{background:var(--light)}
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .product{background:#fff;border:1px solid var(--border);border-radius:15px;padding:24px;transition:.2s}
+    .product:hover{transform:translateY(-4px);box-shadow:0 14px 35px rgba(9,38,74,.08)}
+    .icon{width:52px;height:52px;border-radius:12px;background:#eaf2fa;color:var(--navy);display:grid;place-items:center;font-size:25px;margin-bottom:16px}
+    .product h3{font-size:17px;color:var(--navy);margin-bottom:5px}
+    .product p{font-size:13px;color:var(--muted)}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+    .about-box{background:var(--navy);border-radius:22px;padding:35px;color:#fff}
+    .about-box h3{font-size:30px;margin-bottom:10px}
+    .about-box p{color:#d9e6f4}
+    .checks{list-style:none;margin-top:20px}
+    .checks li{margin:11px 0;color:#d9e6f4}
+    .checks li:before{content:"✓";display:inline-grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#fff;color:var(--navy);font-weight:900;margin-right:9px}
+    .contact{background:var(--light)}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+    .contact-card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:30px}
+    .contact-item{display:flex;gap:15px;padding:15px 0;border-bottom:1px solid var(--border)}
+    .contact-item:last-child{border-bottom:0}
+    .contact-icon{font-size:23px;color:var(--navy)}
+    .contact-item strong{display:block;color:var(--navy)}
+    .contact-item span{color:var(--muted);font-size:14px}
+    form{display:grid;gap:13px}
+    input,textarea{width:100%;padding:14px;border:1px solid var(--border);border-radius:9px;font:inherit;outline:none}
+    input:focus,textarea:focus{border-color:var(--navy)}
+    textarea{min-height:130px;resize:vertical}
+    footer{background:var(--navy);color:#d9e6f4;padding:30px 0}
+    .footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}
+    .footer-brand{font-weight:800;color:#fff}
+    .floating{position:fixed;right:18px;bottom:18px;z-index:99;background:#1c9b54;color:#fff;border-radius:50px;padding:13px 18px;font-weight:800;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding-top:65px}}
+    @media(max-width:700px){
+      .nav{height:68px}.menu{display:block}nav{display:none;position:absolute;left:0;right:0;top:68px;background:#fff;border-bottom:1px solid var(--border);padding:15px 4%;flex-direction:column;align-items:stretch;gap:0}nav.open{display:flex}nav a{padding:12px 0}.nav-cta{text-align:center}
+      .brand div:last-child{font-size:14px}.brand small{font-size:8px}.logo{width:43px;height:43px}
+      .hero{padding:55px 0}.hero-card{padding:25px}.bulb{height:130px;font-size:65px}
+      section{padding:60px 0}.section-head h2{font-size:31px}.grid{grid-template-columns:1fr 1fr;gap:12px}.product{padding:18px}.product h3{font-size:15px}
+      .footer-row{flex-direction:column;text-align:center}.floating{right:12px;bottom:12px}
+    }
+    @media(max-width:420px){.grid{grid-template-columns:1fr}.hero h1{font-size:38px}.stats{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home">
+      <div class="logo">GT</div>
+      <div>GlowTech Lightning Industries<small>Quality LED Lighting Solutions</small></div>
+    </a>
+    <button class="menu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a href="#home" onclick="closeMenu()">Home</a>
+      <a href="#products" onclick="closeMenu()">Products</a>
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+      <a class="nav-cta" href="tel:7856080866">Call Now</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <span class="tag">GlowTech • GT</span>
+      <h1>We are Manufacturers of All LEDs Lights in Ranchi, Jharkhand.</h1>
+      <p>Reliable and modern LED lighting solutions for homes, businesses, industries and outdoor spaces.</p>
+      <div class="buttons">
+        <a class="btn btn-primary" href="#products">Explore Products</a>
+        <a class="btn btn-secondary" href="https://wa.me/917856080866?text=Hello%20GlowTech%20Lightning%20Industries,%20I%20want%20to%20know%20about%20your%20LED%20products." target="_blank" rel="noopener">WhatsApp Enquiry</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="bulb">💡</div>
+      <h2>GlowTech Lightning Industries</h2>
+      <p>Manufacturing a wide range of LED lighting products in Ranchi, Jharkhand.</p>
+      <div class="stats">
+        <div class="stat"><strong>0–100W</strong><span>LED Bulbs</span></div>
+        <div class="stat"><strong>15+</strong><span>Product Types</span></div>
+        <div class="stat"><strong>Ranchi</strong><span>Based</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <div class="container">
+    <div class="section-head">
+      <h2>Our Products</h2>
+      <p>Explore our range of LED lighting solutions for residential, commercial and outdoor applications.</p>
+    </div>
+    <div class="grid">
+      <article class="product"><div class="icon">💡</div><h3>LED Bulb</h3><p>0 to 100 Watt range</p></article>
+      <article class="product"><div class="icon">▭</div><h3>Tube Light</h3><p>Efficient everyday lighting</p></article>
+      <article class="product"><div class="icon">▣</div><h3>Panel Light</h3><p>Clean and modern illumination</p></article>
+      <article class="product"><div class="icon">◉</div><h3>Ceiling Light</h3><p>Stylish indoor lighting</p></article>
+      <article class="product"><div class="icon">🚗</div><h3>Parking Light</h3><p>Practical outdoor lighting</p></article>
+      <article class="product"><div class="icon">🔦</div><h3>Flood Light</h3><p>Powerful area illumination</p></article>
+      <article class="product"><div class="icon">✦</div><h3>PAR Light</h3><p>Focused lighting solutions</p></article>
+      <article class="product"><div class="icon">🌿</div><h3>Garden Light</h3><p>Outdoor decorative lighting</p></article>
+      <article class="product"><div class="icon">🛣️</div><h3>Street Light</h3><p>Road and area lighting</p></article>
+      <article class="product"><div class="icon">☀️</div><h3>Solar Street Light</h3><p>Solar-powered outdoor lighting</p></article>
+      <article class="product"><div class="icon">🔆</div><h3>T-Light</h3><p>Compact lighting solution</p></article>
+      <article class="product"><div class="icon">🌈</div><h3>Rainbow Bulb</h3><p>Decorative colour lighting</p></article>
+      <article class="product"><div class="icon">✨</div><h3>Decorative Lights</h3><p>Lighting for special spaces</p></article>
+      <article class="product"><div class="icon">➕</div><h3>Other LED Lights</h3><p>Ask us for your requirement</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about-grid">
+    <div>
+      <span class="tag">About GlowTech</span>
+      <h2 style="font-size:40px;color:var(--navy);margin:18px 0 10px">Lighting Your World with Better LEDs.</h2>
+      <p style="color:var(--muted)">GlowTech Lightning Industries is a Ranchi-based LED lighting manufacturer offering a broad range of lighting products for residential, commercial and outdoor needs.</p>
+      <p style="color:var(--muted);margin-top:13px">Our focus is on providing practical, modern and dependable lighting solutions for customers and businesses.</p>
+    </div>
+    <div class="about-box">
+      <h3>Why GlowTech?</h3>
+      <p>One place for a wide range of LED lighting requirements.</p>
+      <ul class="checks">
+        <li>Wide range of LED lighting products</li>
+        <li>0–100W LED bulb range</li>
+        <li>Residential & commercial solutions</li>
+        <li>Outdoor & decorative lighting</li>
+        <li>Based in Ranchi, Jharkhand</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <h2>Contact Us</h2>
+      <p>Have a lighting requirement? Get in touch with GlowTech Lightning Industries.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-item"><div class="contact-icon">📞</div><div><strong>Phone / WhatsApp</strong><span><a href="tel:7856080866">7856080866</a></span></div></div>
+        <div class="contact-item"><div class="contact-icon">✉️</div><div><strong>Email</strong><span><a href="mailto:glowtechranchi@gmail.com">glowtechranchi@gmail.com</a></span></div></div>
+        <div class="contact-item"><div class="contact-icon">📍</div><div><strong>Address</strong><span>Yamuna Nagar, Harmu, Ranchi, Jharkhand</span></div></div>
+      </div>
+      <div class="contact-card">
+        <form onsubmit="sendWhatsApp(event)">
+          <input id="name" type="text" placeholder="Your Name" required>
+          <input id="phone" type="tel" placeholder="Your Phone Number" required>
+          <textarea id="message" placeholder="Tell us which LED product you need..." required></textarea>
+          <button class="btn btn-primary" type="submit">Send Enquiry on WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<a class="floating" href="https://wa.me/917856080866?text=Hello%20GlowTech%20Lightning%20Industries,%20I%20have%20an%20LED%20lighting%20requirement." target="_blank" rel="noopener">💬 WhatsApp</a>
+
+<footer>
+  <div class="container footer-row">
+    <div><div class="footer-brand">GlowTech Lightning Industries (GT)</div><div>LED Lighting Manufacturer • Ranchi, Jharkhand</div></div>
+    <div>© <span id="year"></span> GlowTech. All Rights Reserved.</div>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu(){document.getElementById('nav').classList.toggle('open')}
+  function closeMenu(){document.getElementById('nav').classList.remove('open')}
+  function sendWhatsApp(e){
+    e.preventDefault();
+    const name=document.getElementById('name').value.trim();
+    const phone=document.getElementById('phone').value.trim();
+    const message=document.getElementById('message').value.trim();
+    const text=`Hello GlowTech Lightning Industries,%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0ARequirement: ${encodeURIComponent(message)}`;
+    window.open(`https://wa.me/917856080866?text=${text}`,'_blank');
+  }
+  document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
