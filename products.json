@@ -1,436 +1,345 @@
 [
   {
-    "id": "bulb-5w",
-    "name": "LED Bulb",
-    "category": "LED Bulbs",
-    "variant": "5W",
-    "price": null,
-    "description": "Energy-saving LED bulb. Add your confirmed selling price.",
-    "image": "images/led-bulb.svg"
-  },
-  {
-    "id": "bulb-100w",
-    "name": "LED Bulb",
-    "category": "LED Bulbs",
-    "variant": "100W",
-    "price": null,
-    "description": "High-wattage LED bulb. Add your confirmed selling price.",
-    "image": "images/led-bulb.svg"
-  },
-  {
-    "id": "inverter-12w-3-4",
-    "name": "AC/DC Inverter Bulb",
-    "category": "LED Bulbs",
-    "variant": "12W · 3–4 hrs backup",
-    "price": 250,
-    "description": "Rechargeable inverter bulb.",
-    "image": "images/led-bulb.svg"
-  },
-  {
-    "id": "inverter-12w-1-2",
-    "name": "AC/DC Inverter Bulb",
-    "category": "LED Bulbs",
-    "variant": "12W · 1–2 hrs backup",
-    "price": 120,
-    "description": "Rechargeable inverter bulb.",
-    "image": "images/led-bulb.svg"
-  },
-  {
-    "id": "multicolor-9w-3in1",
-    "name": "Multicolor LED Bulb",
-    "category": "LED Bulbs",
-    "variant": "9W · 3-in-1",
-    "price": 80,
-    "description": "Three-colour lighting option.",
-    "image": "images/led-bulb.svg"
-  },
-  {
-    "id": "multicolor-9w-7in1",
-    "name": "Multicolor LED Bulb",
-    "category": "LED Bulbs",
-    "variant": "9W · 7-in-1",
-    "price": 120,
-    "description": "Seven-colour lighting option.",
-    "image": "images/led-bulb.svg"
-  },
-  {
-    "id": "t-bulb-10w",
-    "name": "LED-T Bulb",
-    "category": "LED Bulbs",
-    "variant": "10W",
-    "price": 110,
-    "description": "LED-T style bulb.",
-    "image": "images/led-bulb.svg"
-  },
-  {
-    "id": "tube-20w",
-    "name": "LED Tube Light",
-    "category": "Tube Lights",
-    "variant": "20W",
-    "price": 180,
-    "description": "LED tube light.",
-    "image": "images/tube-light.svg"
-  },
-  {
-    "id": "tube-36w",
-    "name": "LED Tube Light",
-    "category": "Tube Lights",
-    "variant": "36W",
-    "price": 260,
-    "description": "LED tube light.",
-    "image": "images/tube-light.svg"
-  },
-  {
-    "id": "tiranga-22w",
-    "name": "LED Tiranga Tubelight",
-    "category": "Tube Lights",
-    "variant": "22W",
-    "price": 170,
-    "description": "Decorative Tiranga tubelight.",
-    "image": "images/tube-light.svg"
-  },
-  {
-    "id": "running-tube",
-    "name": "Running Tubelight",
-    "category": "Tube Lights",
-    "variant": "Running effect",
-    "price": 175,
-    "description": "Running-effect tubelight.",
-    "image": "images/tube-light.svg"
-  },
-  {
-    "id": "deep-5w",
     "name": "LED Deep Down Light",
     "category": "Downlights",
-    "variant": "5W · White",
-    "price": 65,
-    "description": "Deep recessed downlight.",
-    "image": "images/downlight.svg"
+    "variants": "5W Standard ₹65 • 5W Colorful ₹75",
+    "price": "₹65 onwards",
+    "image": "images/led-01.png"
   },
   {
-    "id": "deep-color-5w",
-    "name": "LED Deep Down Light",
-    "category": "Downlights",
-    "variant": "5W · Colourful",
-    "price": 75,
-    "description": "Colourful deep downlight.",
-    "image": "images/downlight.svg"
-  },
-  {
-    "id": "joy-9w",
     "name": "JOY Model Concealed Light",
     "category": "Downlights",
-    "variant": "9W",
-    "price": 55,
-    "description": "JOY model concealed light.",
-    "image": "images/downlight.svg"
+    "variants": "9W White ₹55 • 9W 3-in-1 ₹95 • 9W 7-in-1 ₹120",
+    "price": "₹55 onwards",
+    "image": "images/led-02.png"
   },
   {
-    "id": "joy-9w-3in1",
-    "name": "JOY Model Concealed Light",
-    "category": "Downlights",
-    "variant": "9W · 3-in-1",
-    "price": 95,
-    "description": "Three-in-one concealed light.",
-    "image": "images/downlight.svg"
-  },
-  {
-    "id": "joy-9w-7in1",
-    "name": "JOY Model Concealed Light",
-    "category": "Downlights",
-    "variant": "9W · 7-in-1",
-    "price": 120,
-    "description": "Seven-in-one concealed light.",
-    "image": "images/downlight.svg"
-  },
-  {
-    "id": "pc-round-8w",
-    "name": "LED PC Panel Light · Round",
+    "name": "LED PC Panel Light — Round",
     "category": "Panel Lights",
-    "variant": "Model 220/208 · 8W",
-    "price": 140,
-    "description": "Round PC panel light.",
-    "image": "images/panel-light.svg"
+    "variants": "8W ₹140 • 12W ₹190 • 15W ₹260 • 22W ₹460",
+    "price": "₹140 onwards",
+    "image": "images/led-03.png"
   },
   {
-    "id": "pc-round-12w",
-    "name": "LED PC Panel Light · Round",
+    "name": "LED PC Panel Light — Square",
     "category": "Panel Lights",
-    "variant": "Model 220/208 · 12W",
-    "price": 190,
-    "description": "Round PC panel light.",
-    "image": "images/panel-light.svg"
+    "variants": "8W ₹152 • 12W ₹220 • 15W ₹260 • 22W ₹430",
+    "price": "₹152 onwards",
+    "image": "images/led-04.png"
   },
   {
-    "id": "pc-round-15w",
-    "name": "LED PC Panel Light · Round",
+    "name": "LED Surface Panel Light — Round",
     "category": "Panel Lights",
-    "variant": "Model 220/208 · 15W",
-    "price": 260,
-    "description": "Round PC panel light.",
-    "image": "images/panel-light.svg"
+    "variants": "8W ₹160 • 15W ₹320",
+    "price": "₹160 onwards",
+    "image": "images/led-05.png"
   },
   {
-    "id": "pc-round-22w",
-    "name": "LED PC Panel Light · Round",
+    "name": "LED Surface Panel Light — Square",
     "category": "Panel Lights",
-    "variant": "Model 220/208 · 22W",
-    "price": 460,
-    "description": "Round PC panel light.",
-    "image": "images/panel-light.svg"
+    "variants": "8W ₹185 • 15W ₹345",
+    "price": "₹185 onwards",
+    "image": "images/led-06.png"
   },
   {
-    "id": "pc-square-8w",
-    "name": "LED PC Panel Light · Square",
+    "name": "LED Adjustable Panel Light",
     "category": "Panel Lights",
-    "variant": "Model 220/208 · 8W",
-    "price": 152,
-    "description": "Square PC panel light.",
-    "image": "images/panel-light.svg"
+    "variants": "12W ₹240 • 18W ₹430",
+    "price": "₹240 onwards",
+    "image": "images/led-07.png"
   },
   {
-    "id": "pc-square-12w",
-    "name": "LED PC Panel Light · Square",
-    "category": "Panel Lights",
-    "variant": "Model 220/208 · 12W",
-    "price": 220,
-    "description": "Square PC panel light.",
-    "image": "images/panel-light.svg"
-  },
-  {
-    "id": "pc-square-15w",
-    "name": "LED PC Panel Light · Square",
-    "category": "Panel Lights",
-    "variant": "Model 220/208 · 15W",
-    "price": 260,
-    "description": "Square PC panel light.",
-    "image": "images/panel-light.svg"
-  },
-  {
-    "id": "pc-square-22w",
-    "name": "LED PC Panel Light · Square",
-    "category": "Panel Lights",
-    "variant": "Model 220/208 · 22W",
-    "price": 430,
-    "description": "Square PC panel light.",
-    "image": "images/panel-light.svg"
-  },
-  {
-    "id": "surface-round-8w",
-    "name": "LED Surface Panel Light · Round",
-    "category": "Panel Lights",
-    "variant": "Model 116/166 · 8W",
-    "price": 160,
-    "description": "Round surface panel light.",
-    "image": "images/panel-light.svg"
-  },
-  {
-    "id": "surface-round-15w",
-    "name": "LED Surface Panel Light · Round",
-    "category": "Panel Lights",
-    "variant": "Model 116/166 · 15W",
-    "price": 320,
-    "description": "Round surface panel light.",
-    "image": "images/panel-light.svg"
-  },
-  {
-    "id": "fancy-1",
-    "name": "4Way Wall Light",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 777,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 420,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-2",
-    "name": "2Way Wall Light",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 703,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 380,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-3",
-    "name": "4Way Wall Light (Horizontal)",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 888,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 480,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-4",
-    "name": "6Way Wall Light",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 990,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 535,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-5",
-    "name": "8Way Wall Light",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 1748,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 945,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-6",
-    "name": "Half K (One Way) Up/Down Light",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 860,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 465,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-7",
-    "name": "Full K (Two Way) Up/Down Light",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 1526,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 825,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-8",
-    "name": "LED Spike Light",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 1739,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 940,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-9",
-    "name": "Golden Flower Light (Small)",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 2488,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 1345,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "fancy-10",
-    "name": "Golden Flower Light (Big)",
-    "category": "Fancy & Outdoor Lights",
-    "variant": "Outdoor decorative light",
-    "price": 2821,
-    "description": "Indicative catalogue price calculated at +85% on the supplied base price. Confirm before publishing.",
-    "basePrice": 1525,
-    "priceNote": "85% increase applied",
-    "image": "images/fancy-light.svg"
-  },
-  {
-    "id": "led-flood-light",
-    "name": "LED Flood Light",
+    "name": "LED Patra Flood Light",
     "category": "Flood Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "variants": "50W ₹105 • 100W ₹195 • 150W ₹285 • 200W ₹480",
+    "price": "₹105 onwards",
+    "image": "images/led-08.png"
   },
   {
-    "id": "led-street-light",
-    "name": "LED Street Light",
-    "category": "Street Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "LED T-Shape Bulb",
+    "category": "LED Bulbs",
+    "variants": "10W ₹110",
+    "price": "₹110",
+    "image": "images/t-shape-bulb.png"
   },
   {
-    "id": "solar-street-light",
-    "name": "Solar Street Light",
-    "category": "Street Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "4 Way Wall Light (4×1 W)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹388.50",
+    "image": "images/fancy16-01.jpg"
   },
   {
-    "id": "garden-light",
-    "name": "Garden Light",
-    "category": "Garden Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "2 Way Wall Light (1×2 W)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹368.15",
+    "image": "images/fancy16-02.jpg"
   },
   {
-    "id": "led-mini-fan-light",
-    "name": "LED Mini Fan Light",
-    "category": "Decorative Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "4 Way Wall Light (4 W)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹508.75",
+    "image": "images/fancy16-03.jpg"
   },
   {
-    "id": "led-big-fan-light",
-    "name": "LED Big Fan Light",
-    "category": "Decorative Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "6 Way Wall Light (6 W)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹703.00",
+    "image": "images/fancy16-04.jpg"
   },
   {
-    "id": "led-par-light",
-    "name": "LED Par Light",
-    "category": "Decorative Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "8 Way Wall Light (8×1 W)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹906.50",
+    "image": "images/fancy16-05.jpg"
   },
   {
-    "id": "led-t-light",
-    "name": "LED T-Light",
-    "category": "Decorative Lights",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "Half K (One Way) Up/Down Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹490.25",
+    "image": "images/fancy16-06.jpg"
   },
   {
-    "id": "mini-jhumar",
-    "name": "Mini Jhumar",
-    "category": "Jhumar",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "Full K (Two Way) Up/Down Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹647.50",
+    "image": "images/fancy16-07.jpg"
   },
   {
-    "id": "large-jhumar",
-    "name": "Large Jhumar",
-    "category": "Jhumar",
-    "variant": "Contact for available models",
-    "price": null,
-    "description": "Ask GlowTech for current model and price.",
-    "image": "images/fancy-light.svg"
+    "name": "LED Spike Light (Garden Light)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹684.50",
+    "image": "images/fancy16-08.jpg"
+  },
+  {
+    "name": "Golden Flower Light (Small)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,108.15",
+    "image": "images/fancy16-09.jpg"
+  },
+  {
+    "name": "Golden Flower Light (Big)",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,385.65",
+    "image": "images/fancy16-10.jpg"
+  },
+  {
+    "name": "Starla Wall Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,211.75",
+    "image": "images/fancy16-11.jpg"
+  },
+  {
+    "name": "Butterfly Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,385.65",
+    "image": "images/fancy16-12.jpg"
+  },
+  {
+    "name": "Sun Flower Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,258.00",
+    "image": "images/fancy16-13.jpg"
+  },
+  {
+    "name": "Sun Flower Brass Wall Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,313.50",
+    "image": "images/fancy16-14.jpg"
+  },
+  {
+    "name": "Germetik Wall Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,350.50",
+    "image": "images/fancy16-15.jpg"
+  },
+  {
+    "name": "Up & Down Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,478.15",
+    "image": "images/fancy12-01.jpg"
+  },
+  {
+    "name": "Up & Down Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,033.15",
+    "image": "images/fancy12-01.jpg"
+  },
+  {
+    "name": "Cylinder Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,385.65",
+    "image": "images/fancy12-02.jpg"
+  },
+  {
+    "name": "Cylinder Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,940.65",
+    "image": "images/fancy12-02.jpg"
+  },
+  {
+    "name": "Square Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,663.15",
+    "image": "images/fancy12-03.jpg"
+  },
+  {
+    "name": "Square Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,403.15",
+    "image": "images/fancy12-03.jpg"
+  },
+  {
+    "name": "Diamond Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,570.65",
+    "image": "images/fancy12-04.jpg"
+  },
+  {
+    "name": "Diamond Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,218.15",
+    "image": "images/fancy12-04.jpg"
+  },
+  {
+    "name": "Lantern Wall Light — 7W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,218.15",
+    "image": "images/fancy12-05.jpg"
+  },
+  {
+    "name": "Lantern Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹3,328.15",
+    "image": "images/fancy12-05.jpg"
+  },
+  {
+    "name": "Round Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,848.15",
+    "image": "images/fancy12-06.jpg"
+  },
+  {
+    "name": "Round Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,773.15",
+    "image": "images/fancy12-06.jpg"
+  },
+  {
+    "name": "Layer Wall Light — 8W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,218.15",
+    "image": "images/fancy12-07.jpg"
+  },
+  {
+    "name": "Layer Wall Light — 16W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹3,328.15",
+    "image": "images/fancy12-07.jpg"
+  },
+  {
+    "name": "Star Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,663.15",
+    "image": "images/fancy12-08.jpg"
+  },
+  {
+    "name": "Star Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,588.15",
+    "image": "images/fancy12-08.jpg"
+  },
+  {
+    "name": "Vertical Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,755.65",
+    "image": "images/fancy12-09.jpg"
+  },
+  {
+    "name": "Vertical Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,588.15",
+    "image": "images/fancy12-09.jpg"
+  },
+  {
+    "name": "Moon Wall Light — 6W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹1,848.15",
+    "image": "images/fancy12-10.jpg"
+  },
+  {
+    "name": "Moon Wall Light — 12W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,773.15",
+    "image": "images/fancy12-10.jpg"
+  },
+  {
+    "name": "House Wall Light — 7W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,033.15",
+    "image": "images/fancy12-11.jpg"
+  },
+  {
+    "name": "House Wall Light — 14W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹3,143.15",
+    "image": "images/fancy12-11.jpg"
+  },
+  {
+    "name": "Oval Wall Light — 8W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹2,403.15",
+    "image": "images/fancy12-12.jpg"
+  },
+  {
+    "name": "Oval Wall Light — 16W",
+    "category": "Premium Outdoor Fancy Lights — 12 Designs",
+    "variants": "Catalogue price after 85% increase",
+    "price": "₹3,698.15",
+    "image": "images/fancy12-12.jpg"
+  },
+  {
+    "name": "Nest Wall Light",
+    "category": "Fancy Lights — 16 Products",
+    "variants": "Catalogue price",
+    "price": "₹1,276.50",
+    "image": "images/fancy16-16.jpg"
   }
 ]
